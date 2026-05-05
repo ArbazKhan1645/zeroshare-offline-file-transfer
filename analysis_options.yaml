@@ -1,0 +1,54 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+
+  errors:
+    missing_required_param: error
+    missing_return: error
+    dead_code: warning
+    unused_import: warning
+
+linter:
+  rules:
+    # Code Style
+    always_use_package_imports: true
+    prefer_single_quotes: true
+    require_trailing_commas: true
+
+    # Clean Code
+    avoid_print: true
+    avoid_unnecessary_containers: true
+    avoid_redundant_argument_values: true
+    avoid_empty_else: true
+
+    # Naming
+    camel_case_types: true
+    library_names: true
+    file_names: true
+    non_constant_identifier_names: false
+
+    # Readability
+    lines_longer_than_80_chars: false
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+
+    # Null Safety & Safety
+    always_declare_return_types: true
+    avoid_dynamic_calls: true
+
+    # Performance
+    prefer_final_fields: true
+    prefer_final_locals: true
+
+    # Best Practices
+    unnecessary_this: true
+    unnecessary_null_checks: true
+    prefer_if_null_operators: true
+    use_key_in_widget_constructors: true
+
+    # Async
+    unawaited_futures: true
