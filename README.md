@@ -1,6 +1,7 @@
 # 🚀 ZeroShare — Offline File Transfer App (No Internet Required)
 
 > 🔥 Instantly share files between devices over local network (WiFi / LAN) — **100% offline, fast & secure**
+⚡ Share files instantly without internet — fast, secure & peer-to-peer
 
 ---
 
